@@ -1,0 +1,10 @@
+<div class="setRow">
+  <div [class.item]="setClass" [class.itemThree]="!setClass"><div [class]="multipleClassesOne"><label>Name:&nbsp;</label></div></div>
+  <div class="item"><div [class]="multipleClassesTwo"><label>Age:&nbsp;</label></div></div>
+  <div class="item"><div [class]="multipleClassesThree"><label>Archetype:&nbsp;</label></div></div>
+</div>
+<div class="setRowTwo">
+  <div [class.itemTwo]="setClass" [class.itemFour]="!setClass"><div class="setAlignment"><p>{{ person.name }}</p></div></div>
+  <div class="itemTwo"><div class="setAlignment"><p>{{ person.age }}</p></div></div>
+  <div class="itemTwo"><div class="setAlignment"><p>{{ person.archetype }}</p></div></div>
+</div>
